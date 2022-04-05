@@ -57,6 +57,7 @@ class Trie:
             tree = sub_tree
         
         # End of sequence
+        # TODO {1:{None:{arrival_time=3}}}
         tree[None] = dict()
     
     def __str__(self):
